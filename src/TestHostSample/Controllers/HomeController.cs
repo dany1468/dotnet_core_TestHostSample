@@ -12,6 +12,7 @@ namespace TestHostSample.Controllers
     {
         public IActionResult Index()
         {
+            Console.Write("dotnet test で console に出力されるか");
             return View();
         }
 

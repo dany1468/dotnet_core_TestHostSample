@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  app:
+    image: mcr.microsoft.com/dotnet/core/sdk:2.2
+    tty: true
+    volumes:
+      - ./:/app
+
